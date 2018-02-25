@@ -1,3 +1,93 @@
+ <!-- <div>
+        <div>
+        </div>
+        <div id="contenair">
+            <div class="Dev"></div>
+            <div id="Dev" class="Dev">
+                <h1>Developpeur Front- Junior</h1>
+            </div>
+            <div class="Dev"></div>
+            <div class="col"></div>
+            <div id="p" class="col">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Apropos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">CV</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="apropos">
+                            <h1 class="H">Présentation</h1>
+                            <img src="img/photo.jpg" alt="Photo" style="height: 77px; width: 50px;">
+                            <p>Passionné depuis toujours par l'informatique et le web et issu d'une formation en Management
+                                et communication. Je suis actuellement en formation chez Simplon Lyon pour devenir Developpeur
+                                Front-end.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="block">
+                            <h2 class="projets">Mes projets</h2>
+                            <span>
+                                <span></span>
+                            </span>
+                            <div class="wrap">
+                                <a href="#">
+                                    <div></div>
+                                </a>
+                                <a href="https://home/diallo/projet-jeu/www/jeu.html">
+                                    <div>
+                                        <P id="jeu">PROJET-JEU</P>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div></div>
+                                </a>
+                                <a href="#">
+                                    <div></div>
+                                </a>
+                                <a href="https://africabonnes-affaires.com/">
+
+                                    <div id="africaB">
+                                        <P>SITE WEB</P>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="cv">
+                            <h1 class="mon-cv">Mon CV</h1>
+                            <a href="img/cv/CV_Developpeur_FRONT-END1.pdf" style="text-decoration: none;" download="Mon_CV">Télécharger mon CV</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col"></div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/HTML5.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Third slide">
+                    </div>
+                </div>
+            </div> -->
+ 
+ 
+ 
+ 
  <div id="github">
                         <i class="fab fa-github fab-2x" aria-hidden="true"></i>
                     </div>
@@ -187,3 +277,131 @@ a:hover div{
 opacity:1;
 transform:translatez(0px);
 }
+
+
+profil {
+  display: block;
+  flex-direction: row;
+  z-index: 18;
+  background-color: rgb(77, 76, 75);  
+  animation: slidein 1.2s;
+}
+@keyframes fadein {
+  from {
+    color: transparent;
+  }
+  to {
+    color: inherit;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  49.9% {
+    opacity: 0;
+  }
+  50% {
+    left: -240px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.block {
+  display: block;
+  flex-direction: row;
+  z-index: 18;
+  background-color: rgb(86, 91, 92);  
+  animation: slidein 1.2s;
+}
+@keyframes fadein {
+  from {
+    color: transparent;
+  }
+  to {
+    color: inherit;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  49.9% {
+    opacity: 0;
+  }
+  50% {
+    left: -240px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.cv {
+  display: block;
+  flex-direction: row;
+  z-index: 18;
+  background-color: rgb(86, 91, 92);  
+  animation: slidein 1.2s;
+}
+@keyframes fadein {
+  from {
+    color: transparent;
+  }
+  to {
+    color: inherit;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  49.9% {
+    opacity: 0;
+  }
+  50% {
+    left: -240px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+
+
+
